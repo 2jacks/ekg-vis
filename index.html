@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/stock.js"></script>
+    <script src="https://code.highcharts.com/modules/boost.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="patient-list">
+      <select name="patient-select" class="patient-select">
+        <option value="">Выберите пациента</option>
+        <option value="Ноздрин Антон">Ноздрин Антон</option>
+        <option value="Яркинбаев Радмир">Яркинбаев Радмир</option>
+        <option value="Николаев Алексей">Николаев Алексей</option>
+        <option value="Кременко Кремень">Кременко Кремень</option>
+        <option value="Черняев Беляк">Черняев Беляк</option>
+      </select>
+    </div>
+    <div class="patient-card">
+      <h2 class="patient-name"></h2>
+      <div id="chart"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
